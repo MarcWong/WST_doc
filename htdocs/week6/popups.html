@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>   
+  <title>y2015g49_hw6_Popups</title>
+    <meta charset="UTF-8">
+  <script language="javascript">
+    <!--
+    function hello(){
+  window.alert("*****************\n" + "Hey, I'm Mr. Pudding...\n\n"+ "*****************\n");
+}
+    function getURL() {
+      var url = window.prompt("Please enter a URL","https://");
+      location =  url;
+    }
+function mOver(obj)
+{
+obj.innerHTML="Yeah I know you like Lime!";
+self.status='Off to the Lemon';
+return true;
+}
+
+function mOut(obj)
+{
+obj.innerHTML="Oh you don't like Lime";
+self.status='';
+}
+function mOver2(obj)
+{
+obj.innerHTML="Yeah I know you like Lemon";
+self.status='Ah.... I see that you prefer the lime';
+return true;
+}
+
+function mOut2(obj)
+{
+obj.innerHTML="Oh you don't like Lemon";
+self.status='';
+}
+-->
+  </script>
+</head>
+<body onload="hello()">
+  <h1>And today's nonsense is ...</h1>
+Mr Pudding says: Do you want to go to 
+  <a href="#" onMouseOver="mOver(this)"
+            onMouseOut="mOut(this)" >the Lemon</a>?
+  <br />or would you prefer the  
+  <a href="#" onMouseOver="mOver2(this)"
+            onMouseOut="mOut2(this)">the Lime</a>?
+  <h1><a href="#" onClick="getURL()">or something special?</a></h1>
+  <div><a href="hw6.html" id = "return"><img src="../img/logo0.png" /></a></div>
+</body>
+</html>
+

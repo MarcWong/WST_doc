@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+<title>y2015g49_hw7-3</title>
+<meta http-equiv="Content-type" content="text/html;" charset="UTF-8" />
+<link type="image/x-icon" href="../img/batman_24px_1190165_easyicon.net.ico" rel="icon"></link>
+<link rel="stylesheet" type="text/css" href="../css/mycss.css" />
+</head>
+<body>
+<h4>Please choose what you want to draw</h4>
+      <form action="Draw.php" method="post">
+    <h3>Shape:</h3>
+    <input type="radio" name="graph" value="Circle" checked="checked"/>Circle
+    <input type="radio" name="graph" value="Rectangle" />Rectangle
+    <input type="radio" name="graph" value="Triangle" />Triangle
+    <h3>Color:</h3>
+    <input type="radio" name="color" value="Red" checked="checked"/>Red
+    <input type="radio" name="color" value="Blue" />Blue
+    <input type="radio" name="color" value="Yellow" />Yellow
+    <input type="radio" name="color" value="Green" />Green
+    <input type="radio" name="color" value="Black" />Black
+    <h3>Filled or not?</h3>
+    <input type="radio" name="fill" value="Filled" checked="checked"/>Filled
+    <input type="radio" name="fill" value="Not Filled" />Not Filled
+    <hr />
+    <input type="submit" value="Draw" />
+    <input type="reset" value="Reset" />
+    </form>
+<object type="application/x-java-applet"
+          width="300"
+          height="300">
+          <param name="code" value="MoreGraphics" />
+          <param name="permissions" value="sandbox" />
+          <param name="edge" value="4" />
+          <param name="colorR" value="0" />
+          <param name="colorG" value="0" />
+          <param name="colorB" value="255" />
+          <param name = "separate_jvm" value="true">
+      </object>
+
+ <div><a href="hw7.html" id = "return"><img src="../img/logo0.png" /></a></div>
+</body>

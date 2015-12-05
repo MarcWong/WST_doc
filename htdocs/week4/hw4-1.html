@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+<title>y2015g49_hw4-1</title>
+<meta http-equiv="Content-type" content="text/html;" charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="../css/mycss.css" />
+<link type="image/x-icon" href="img/batman_24px_1190165_easyicon.net.ico" rel="icon"></link>
+</head>
+<body background = "../img/bg.jpg">
+<ul class = "nav_ui">
+<li class = "nav_li"><a href="../index.html">Homepage</a></li>
+<li class = "nav_li"><a href="../week1/hw1.html">Hw1</a></li>
+<li class = "nav_li"><a href="../week2/hw2.html">Hw2</a></li>
+<li class = "nav_li"><a href="../week3/hw3.html">Hw3</a></li>
+<li class = "nav_li"><a href="../hw4.html">Hw4</a></li>
+<li class = "nav_li"><a href="../week5/hw5.html">Hw5</a></li>
+<li class = "nav_li"><a href="../week6/hw6.html">Hw6</a></li>
+<li class = "nav_li"><a href="../week7/hw7.html">Hw7</a></li>
+<li class = "nav_li"><a href="../week8/hw8.html">Hw8</a></li>
+<li class = "nav_li"><a href="../week9-10/hw9-10.html">Hw9&amp;10</a></li>
+</ul>
+<table align="center" bgcolor="#bebebe">
+    <tr align="center"> <td align="center"> <table width="766" border="8" ><tr align="center"><td><h1 class ="Homepage">Homework4-1</h1></td></tr>
+    <tr align="center"> <td> <h3>Q1-1 Give the SELECT command to answer the question Who will go to the party held in Peking University? </h3></td></tr>
+    <tr align="center"> <td><h5>
+        SELECT guests.Guest_Name FROM guests, parties, guest_parties WHERE <br>
+        parties.Party_Place = "Peking University" AND <br>
+        guest_parties.Guest_Name = guests.Guest_Name AND <br>
+        guest_parties.Party_Name = parties.Party_Name
+    </h5></td></tr>
+        <tr align="center"> <td> <h3>Q1-2 Figure out a way to obtain the column labels returned by mysql_fetch_array. </h3></td></tr>
+    <tr align="center"> <td><h5>
+        $row = mysql_fetch_array($result);<br>
+        echo array_keys($row);
+    </h5></td></tr>
+    <tr align="center"> <td> <h3>Q1-3 Tell the difference between a CGI program and a PHP program executed by a Web Server. </h3></td></tr>
+    <tr align="center"> <td>
+        <table border ="border">
+            <th><td><h3>CGI</h3></td><td><h3>PHP</h3></td></th>
+            <tr><td>definition</td><td>a standard method to process input from HTML forms</td><td>a scipt language</td></tr>
+            <tr><td>filename extension</td><td>so many (excutable files like".pl", ".c" , e.g.)</td><td>".php" , ".php3" , ".phtml"</td></tr>
+            <tr><td>existence</td><td>an executable file</td><td>embeded in a html file with a tag &lt;php?&gt; </td></tr>
+            <tr><td>progress</td><td>runs the executable file and return to the browser a static HTML page</td><td>directly interpretates the php scripts</td></tr>
+            <tr><td>the amount of processes</td><td>traditionally,each time a call to CGI generates a new process, but FASTCGI maintains a process in the memory</td><td>each request will create a new process of the PHP interpreter. </td></tr>
+           </table>
+    </td></tr>
+    </table>
+
+
+    <div><a href="hw4.html" id = "return"><img src="../img/logo0.png" /></a></div>
+</body>

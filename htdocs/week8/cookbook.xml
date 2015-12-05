@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="cookbook.xsl"?>
+<cookbook
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://162.105.146.180:8049/week8 
+          cookbook.xsd">
+  <recipe>
+    <name>Sweet and Sour Spare Ribs</name>
+    <ingredient>
+      <name>ribs</name>
+      <amount>500</amount>
+      <unit>g</unit>
+    </ingredient>
+    <condiment>
+      <name>cooking wine</name>
+      <amount>50</amount>
+      <unit>ml</unit>
+    </condiment>
+    <condiment>
+      <name>soy sauce</name>
+      <amount>50</amount>
+      <unit>ml</unit>
+    </condiment>
+    <condiment>
+      <name>vinegar</name>
+      <amount>100</amount>
+      <unit>ml</unit>
+    </condiment>
+    <condiment>
+      <name>oil</name>
+      <amount>700</amount>
+      <unit>ml</unit>
+    </condiment>
+    <condiment>
+      <name>sugar</name>
+      <amount>50</amount>
+      <unit>g</unit>
+    </condiment>
+    <condiment>
+      <name>salt</name>
+      <amount>10</amount>
+      <unit>g</unit>
+    </condiment>
+        <condiment>
+      <name>water</name>
+      <amount>depends on the size of pot</amount>
+      <unit></unit>
+    </condiment>
+    <cooking><step>1</step><description>  Put ribs in boiling water for 30 minutes till it's just cooked</description> </cooking>
+    <cooking><step>2</step><description> Soak ribs in the mixture of cooking wine, soy sauce, vinegar for 20 minutes, then dry it out</description>
+    </cooking>
+    <cooking><step>3</step><description>Heat the oil in the pot, then put the dryed ribs into the pot, frying for few minutes till the ribs turn golden</description></cooking>
+    <cooking><step>4</step><description>Add water to immerse the ribs, add sugar, keep heating</description></cooking>
+    <cooking><step>5</step><description>Heat till the water all gone</description></cooking>
+    <cooking><step>6</step><description>Enjoy your Sweet and Sour Spare Ribs, it's delicious!</description></cooking>
+  </recipe>
+
+  <recipe>
+    <name>Tomato omelette</name>
+    <ingredient>
+      <name>tomato</name>
+      <amount>2</amount>
+      <unit></unit>
+    </ingredient>
+    <condiment>
+      <name>egg</name>
+      <amount>2</amount>
+      <unit></unit>
+    </condiment>
+    <condiment>
+      <name>oil</name>
+      <amount>30</amount>
+      <unit>ml</unit>
+    </condiment>
+    <condiment>
+      <name>sugar</name>
+      <amount>10</amount>
+      <unit>g</unit>
+    </condiment>
+    <condiment>
+      <name>salt</name>
+      <amount>5</amount>
+      <unit>g</unit>
+    </condiment>
+    <cooking><step>1</step><description>  Put eggs in heated oil and fry it till it's just cooked</description> </cooking>
+    <cooking><step>2</step><description> Put tomatos inside, mix it up</description>
+    </cooking>
+    <cooking><step>3</step><description>Add sugar and salt</description></cooking>
+    <cooking><step>4</step><description>Enjoy your Tomato omelette, its taste it fabulous especially with rice!</description></cooking>
+  </recipe>
+</cookbook>
